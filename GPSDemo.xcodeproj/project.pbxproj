@@ -49,6 +49,7 @@
 		F91C16651D8AA49F0063ABCA /* GPSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F91C16691D8AA49F0063ABCA /* GPSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSDemoUITests.swift; sourceTree = "<group>"; };
 		F91C166B1D8AA49F0063ABCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91C16771D8AA5350063ABCA /* tokyo_to_yokohama.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = tokyo_to_yokohama.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 				F91C16521D8AA49F0063ABCA /* LaunchScreen.storyboard */,
 				F91C16551D8AA49F0063ABCA /* Info.plist */,
 				F91C164D1D8AA49F0063ABCA /* GPSDemo.xcdatamodeld */,
+				F91C16771D8AA5350063ABCA /* tokyo_to_yokohama.gpx */,
 			);
 			path = GPSDemo;
 			sourceTree = "<group>";
