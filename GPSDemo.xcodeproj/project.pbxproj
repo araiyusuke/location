@@ -15,6 +15,9 @@
 		F91C16541D8AA49F0063ABCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91C16521D8AA49F0063ABCA /* LaunchScreen.storyboard */; };
 		F91C165F1D8AA49F0063ABCA /* GPSDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C165E1D8AA49F0063ABCA /* GPSDemoTests.swift */; };
 		F91C166A1D8AA49F0063ABCA /* GPSDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91C16691D8AA49F0063ABCA /* GPSDemoUITests.swift */; };
+		F92BD9D31D8B912F00C058DF /* ConnectOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92BD9D21D8B912F00C058DF /* ConnectOptions.swift */; };
+		F92BD9D51D8B91BF00C058DF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92BD9D41D8B91BF00C058DF /* Location.swift */; };
+		F92BD9D71D8B9B0900C058DF /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92BD9D61D8B9B0900C058DF /* LocationData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		F91C16691D8AA49F0063ABCA /* GPSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSDemoUITests.swift; sourceTree = "<group>"; };
 		F91C166B1D8AA49F0063ABCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F91C16771D8AA5350063ABCA /* tokyo_to_yokohama.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = tokyo_to_yokohama.gpx; sourceTree = "<group>"; };
+		F92BD9D21D8B912F00C058DF /* ConnectOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectOptions.swift; sourceTree = "<group>"; };
+		F92BD9D41D8B91BF00C058DF /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F92BD9D61D8B9B0900C058DF /* LocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 		F91C16451D8AA49F0063ABCA /* GPSDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F92BD9D11D8B8E2C00C058DF /* Location */,
 				F91C16461D8AA49F0063ABCA /* AppDelegate.swift */,
 				F91C16481D8AA49F0063ABCA /* ViewController.swift */,
 				F91C164A1D8AA49F0063ABCA /* Main.storyboard */,
@@ -128,6 +135,16 @@
 				F91C166B1D8AA49F0063ABCA /* Info.plist */,
 			);
 			path = GPSDemoUITests;
+			sourceTree = "<group>";
+		};
+		F92BD9D11D8B8E2C00C058DF /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				F92BD9D21D8B912F00C058DF /* ConnectOptions.swift */,
+				F92BD9D41D8B91BF00C058DF /* Location.swift */,
+				F92BD9D61D8B9B0900C058DF /* LocationData.swift */,
+			);
+			name = Location;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,7 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92BD9D71D8B9B0900C058DF /* LocationData.swift in Sources */,
+				F92BD9D31D8B912F00C058DF /* ConnectOptions.swift in Sources */,
 				F91C164F1D8AA49F0063ABCA /* GPSDemo.xcdatamodeld in Sources */,
+				F92BD9D51D8B91BF00C058DF /* Location.swift in Sources */,
 				F91C16491D8AA49F0063ABCA /* ViewController.swift in Sources */,
 				F91C16471D8AA49F0063ABCA /* AppDelegate.swift in Sources */,
 			);
@@ -493,6 +513,7 @@
 				F91C16701D8AA49F0063ABCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F91C16711D8AA49F0063ABCA /* Build configuration list for PBXNativeTarget "GPSDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +522,7 @@
 				F91C16731D8AA49F0063ABCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F91C16741D8AA49F0063ABCA /* Build configuration list for PBXNativeTarget "GPSDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +531,7 @@
 				F91C16761D8AA49F0063ABCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
